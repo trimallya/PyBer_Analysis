@@ -1,13 +1,13 @@
 # PyBer_Analysis
 
 ## Overview of the Analysis
-This challenge analyzes rideshare data to compare the total number of rides, total number of drivers, and fares for each city type (urban, suburban, and rural). These variances in total fares for each city type for the first 4 months of the year 2019 can be seen in the visualization created at the end.
+This challenge analyzes rideshare data to compare the total number of rides, total number of drivers, and fares for each city type (urban, suburban, and rural). Variances in total fares for each city type for the first 4 months of the year 2019 can be seen more clearly in the visualization created at the end of the analysis.
 
 ## Results
 ### 01/2019-04/2019 Total Fares
 It can be noted when looking at the graph for the total fares of each city type for 01/2019-04/2019 (seen below) that the urban fares are consistently higher than the suburban fares, which are consistently higher than the rural fares. This means that urban cities produce the most amount of money with the PyBer rideshare app, while rural cities produce the least.
 
-![PyBer Fare Summary Graph](PyBer_fare_summary.png)
+![PyBer Fare Summary Graph](analysis/PyBer_fare_summary.png)
 
 One interesting observation is that all three cities experience a spike towards the end of February at around the same time. It would be interesting to further research why this sudden spike occurs, and possibly implement similar methods to other months in the year. 
 
@@ -16,7 +16,7 @@ After taking a closer look at the breakdown of each city type, it can be seen th
 In addition, rural cities have about 6 and 30 times less the number of total drivers than suburban and urban cities, respectively. However, in accordance with the higher average fare per ride, drivers in rural cities make about 1.5 and 3 times more per ride than the drivers in suburban and urban cities, respectively. 
 These comparisons can be seen in the chart below. 
 
-![PyBer Summary Stats](PyBer_Summary_Stats.png)
+![PyBer Summary Stats](analysis/PyBer_Summary_Stats.png)
 
 ### What This  Means
 These comparisons show that although drivers in rural areas are not able to complete as many rides as those in suburban or urban cities, they receive more money for each ride completed. However, it is important to note that despite these differences, rural cities still remain at the lowest level of total fare output. 
